@@ -27,7 +27,7 @@ const (
 	filesWriterCacheCap = 32
 
 	// estimated average pack size used to calculate pack cache capacity
-	averagePackSize = 5 * 1024 * 1024
+	averagePackSize = 256 * 1024 * 1024
 
 	// pack cache capacity should support at least one cached pack per worker
 	// allow space for extra 5 packs for actual caching
